@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" class="style" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="search--form">
+        <input
+          type="text"
+          class="type--movie"
+          placeholder="Type a movie name..."
+        />
+        <button class="search--movie">Search</button>
+      </div>
+      <p class="error hidden"></p>
+      <div class="main hidden">
+        <div class="overview">
+          <img src="" class="min--img" alt="Photo of the movie" />
+          <div class="desc--main">
+            <h2 class="title"></h2>
+            <p class="rate"></p>
+            <div class="info">
+              <p class="info--1"></p>
+              <p class="info--2"></p>
+              <p class="info--3"></p>
+            </div>
+            <div class="info--types"></div>
+          </div>
+        </div>
+        <div class="desc--type">
+          <div class="description">
+            <h3>Plot:</h3>
+            <p class="plot"></p>
+          </div>
+          <div class="description">
+            <h3>Cast:</h3>
+            <p class="cast"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="ss.js"></script>
+  </body>
+</html>
